@@ -7,7 +7,12 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 50px;
 }
 .scene{
     position: relative;
+}
+.ball{
+    width: 1em;
+    height: 1em;
 }
