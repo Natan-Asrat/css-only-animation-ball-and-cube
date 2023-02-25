@@ -17,6 +17,9 @@ body{
     height: 1em;
     border-radius: 50%;
     background-color: lightblue;
+    position: absolute;
+    left: -0.5em;
+    bottom: 1em;
 }
 .cube{
     width: 3em;
@@ -25,8 +28,12 @@ body{
     position: absolute;
     top: -1em; 
     left: -1em;
+    
 }
 .floor{
+    position: absolute;
+    top: 1em;
+    transform: translate(-50%, -50%);
     width: 5em;
     height: 5em;
     background-image: repeating-conic-gradient(from 45deg, #111 0deg 90deg, #222 90deg 180deg);
