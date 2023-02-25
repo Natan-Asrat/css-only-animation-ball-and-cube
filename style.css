@@ -18,3 +18,8 @@ body{
     border-radius: 50%;
     background-color: lightblue;
 }
+.box{
+    width: 3em;
+    height: 3em;
+    background: var(--boxColor);
+}
