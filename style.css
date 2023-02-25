@@ -23,3 +23,9 @@ body{
     height: 3em;
     background: var(--boxColor);
 }
+.floor{
+    width: 5em;
+    height: 5em;
+    background-image: repeating-conic-gradient(from 45deg, #111 0deg 90deg, #222 90deg 180deg);
+    background-size: 1em 1em;
+}
