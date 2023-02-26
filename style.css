@@ -41,6 +41,7 @@ body{
     background-image: radial-gradient(
         #0007, #0000 50%
     );
+    animation: ballShadow var(--bounceSpeed) infinite ease-out;
 }
 
 .cube{
@@ -121,5 +122,13 @@ body{
     }
     50% {
         bottom: 3em; animation-timing-function: ease-in;
+    }
+}
+
+@keyframes ballShadow {
+    50%{
+        opacity: 0.5;
+        transform: scale(2);
+        animation-timing-function: ease-in;
     }
 }
