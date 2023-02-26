@@ -27,8 +27,9 @@ body{
     bottom: 1em;
     background-image: radial-gradient(
         circle at top,
-        lightblue, 70%, black
+        lightblue, 60%, black
     );
+    animation: sceneRotate var(--rotateSpeed) infinite linear reverse;
 }
 
 .ballShadow{
