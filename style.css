@@ -31,7 +31,7 @@ body{
         lightblue, 60%, black
     );
     animation: 
-    ballBounce var(--bounceSpeed) infinite ease-out;
+    ballBounce var(--bounceSpeed) infinite ease-out,
     sceneRotate var(--rotateSpeed) infinite linear reverse;
 }
 
