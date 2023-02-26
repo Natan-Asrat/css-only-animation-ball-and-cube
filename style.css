@@ -23,6 +23,10 @@ body{
     position: absolute;
     left: -0.5em;
     bottom: 1em;
+    background-image: radial-gradient(
+        circle at top,
+        lightblue, 70%, black
+    );
 }
 .cube{
     width: 2em;
